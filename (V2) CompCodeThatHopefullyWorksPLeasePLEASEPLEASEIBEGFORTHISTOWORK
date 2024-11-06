@@ -52,7 +52,7 @@ def driver_control():
 def autonomous():
     drivetrain.drive_for(FORWARD, 48, INCHES)
     #digital_out_a.set(True)
-    motor_7.spin_for(FORWARD, 4, TURNS)
+    motor_7.spin(FORWARD)
     #digital_out_a.set(False)
 
 
