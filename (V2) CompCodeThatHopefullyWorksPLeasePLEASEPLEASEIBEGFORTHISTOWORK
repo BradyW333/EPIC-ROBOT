@@ -1,13 +1,3 @@
-
-# ------------------------------------------
-# 
-# 	Project:      CompCodeFirst
-#	Author:       Brady(Lead) and Janis(Helper)
-#	Created:      A date
-#	Description:  Insanely epic robot code gaming that is cracked at Fortnite
-# 
-# ------------------------------------------
-
 # Library imports
 from vex import *
 
@@ -41,7 +31,7 @@ def driver_control():
     while(controller_1.buttonR2.pressing()):
         motor_7.spin(REVERSE)
     #while(controller_1.buttonL1.pressing()):
-    #   digital_out_a.set(true)
+    #    digital_out_a.set(true)
     
     
     
@@ -59,8 +49,4 @@ def autonomous():
 
 
 competition = Competition(driver_control, autonomous)
-
-    
-    
-    
     
